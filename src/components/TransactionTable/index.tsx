@@ -5,20 +5,22 @@ import { Container } from './styles';
 export function TransactionTable() {
  useEffect(() => {
   api.get('transactions')
-  .then(response => console.log(response.data)) 
- },[]);
- 
+   .then(response => console.log(response.data))
+ }, []);
+
 
  return (
   <Container>
    <table>
 
-    <tr>
-     <th>Titulo</th>
-     <th>Valor</th>
-     <th>Catogoria</th>
-     <th>Data</th>
-    </tr>
+    <thead>
+     <tr>
+      <th>Titulo</th>
+      <th>Valor</th>
+      <th>Catogoria</th>
+      <th>Data</th>
+     </tr>
+    </thead>
 
     <tbody>
      <tr>
