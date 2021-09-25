@@ -54,7 +54,6 @@ html {
   opacity: 0.6;
   cursor: not-allowed;
  }
- //5 50
 
  .react-modal-overlay {
   background: rgba(0,0,0,0.5);

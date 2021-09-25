@@ -10,12 +10,6 @@ Modal.setAppElement('#root');
 
 export function App() {
   const [isNewTransactionModalOpen, setIsNewTransactionModalOpen] = useState(false);
-  // const [transactions, setTransactions] = useState<Transaction[]>([])
-  
-  // useEffect(() => {
-  //   api.get('transactions')
-  //     .then(response => setTransactions(response.data.transactions))
-  // }, []);
 
   function handleOpenNewTransactionModal() {
    setIsNewTransactionModalOpen(true);
