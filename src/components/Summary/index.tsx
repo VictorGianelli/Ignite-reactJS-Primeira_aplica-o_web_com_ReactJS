@@ -8,8 +8,6 @@ import { useContext } from 'react';
 export function Summary() {
  const {transactions} = useContext(TransactionContext)
 
- console.log(transactions)
- 
  return (
   <Container>
    <div>
